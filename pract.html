@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="styles.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>HTML Forms</h1> 
+   <form>
+    <label for="uername">Enter your username:</label>
+    <input type="text" id="username" name="username" placeholder="your name" required>
+    <br><br>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email" placeholder="email-id" required>
+    <br><br>
+    <label for="password">Enter your password:</label>
+    <input type="password" id="password" name="password" placeholder="password" required>
+    <p>Select your age:</p>
+    <input type="radio" name="age" value="0-25"id="option 1">
+    <label for="option 1">0-25</label>
+    <input type="radio" name="age" value="26-55"id="option 2">
+    <label for="option 2">26-55</label>
+    <input type="radio" name="age" value="56-80" id="option 3">
+    <label for="option 3">56-80</label>
+</form>
+<form>
+    <p class="error">Select your gender</p>
+    <input type="radio" name="gender" value="male"id="option 1">
+    <label for="option 1">male</label>
+    <input type="radio" name="gender" value="female"id="option 2">
+    <label for="option 2"> female</label>
+    <br><br>
+    <label for="question">Security question:</label>
+    <select name="question" id="question">
+        <option value="q1">what colour are your favourite pair of socks?</option>
+        <option value="q2">if you could be a vegetable what would it be?</option>
+        <option value="q3">which is your favourite series?</option>
+    </select>
+    <br><br>
+    <label for="answer">Security question answer</label>
+<input type="text" name="answer" id="answer"><br>
+<label for="bio"> Your bio:</label><br>
+<textarea name="bio" id="bio" cols="20" rows="20" placeholder="about you"></textarea>
+<br><br>
+<input type="submit" value="submit the form"
+</form>
+   
+</body>
+</html>
